@@ -10,3 +10,11 @@
  */
 
 // se colocar /** */ serão gerados asteriscos automaticamente
+
+//Para comentar varias linhas : 
+// Selecione as linhas
+// Aperte shift + alt + A
+
+//Para descomentar varias linhas:
+//Selecione as linhas
+//Aperte shift + alt + A
