@@ -8,6 +8,7 @@
  a = b;
  b = aux;  
 
+// ou [a,b] = [b,a]
 
  console.log("O novo valor de A: " + a);
  console.log("O novo valor de B: " + b);
