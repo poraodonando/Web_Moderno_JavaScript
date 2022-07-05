@@ -14,5 +14,7 @@ console.log('Show!'*2); //NaN
 console.log(0.1 + 0.7) // 0.799999
 //console.log(10.toString())
 console.log(10.345.toFixed(2)); // deixa o numero com 2 casas decimais
+console.log('3' + 2);// Concatena e nao soma
+console.log('3' - 2);// O menos nao faz sentido no mundo da string
 
 
