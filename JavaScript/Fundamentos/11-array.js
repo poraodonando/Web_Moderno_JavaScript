@@ -1,4 +1,6 @@
-// Uma forma de agrupar multiplos valores, a partir de um unico valor em uma estrutura indexada
+// Uma forma de agrupar multiplos valores, a partir de um unico valor em uma estrutura indexada.
+
+// Par de [] representa um array
 
 const valores = [7, 5, 8.5, "OLa", false]; 
 console.log(valores[0], valores[3]);
