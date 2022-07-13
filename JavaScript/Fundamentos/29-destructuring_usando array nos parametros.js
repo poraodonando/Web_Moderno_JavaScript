@@ -5,5 +5,7 @@ function rand([min = 0, max = 1000 ]){
     return Math.floor(valor);
 }
 
-console.log(rand[50,40]);
-console.log(rand[992]);
+console.log(rand([50,40]));
+console.log(rand([992]));
+console.log(rand([]));
+//console.log(rand()); da ERRO!
