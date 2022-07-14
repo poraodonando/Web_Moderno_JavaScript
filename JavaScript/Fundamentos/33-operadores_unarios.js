@@ -5,3 +5,5 @@ num_1++;
 console.log(num_1);
 --num_1;
 console.log(num_1);
+console.log(++num_1 === num_2--);
+console.log(++num_1 === num_2--);
