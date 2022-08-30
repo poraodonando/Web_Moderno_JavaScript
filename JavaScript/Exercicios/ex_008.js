@@ -12,3 +12,40 @@
  * e a pior pontuação aconteceu no sétimo jogo.)
  */
 
+ let score = [];
+ let qtd = 0;
+ let  maior = 0 ;
+ let menor = 1;
+ let pior;
+    function guardaPontos(pontos){
+            score.push(pontos);
+
+            for(let i = 0; i < score.length; i++ ){
+                    
+                if(score[i]> maior ){
+                    maior = score[i];
+                    qtd ++;
+                } else if(score[i] < menor){
+                    menor = score[i];
+                    pior = i+1;
+                }
+                
+            }
+
+            for(let i = 0; i < score.length; i++){
+                if(score[i] == maior){
+                    qtd++;
+                }
+            }
+
+            return console.log(score, maior, qtd) ;
+    }
+
+
+
+
+guardaPontos(3);
+guardaPontos(3);
+guardaPontos(6);
+guardaPontos(6);
+guardaPontos(6);
