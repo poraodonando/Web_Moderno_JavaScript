@@ -12,6 +12,9 @@
  * e a pior pontuação aconteceu no sétimo jogo.)
  */
 
+//PRECISA MELHORAR!!!!
+
+
  let score = [];
  let qtd = 0;
  let  maior = 0 ;
