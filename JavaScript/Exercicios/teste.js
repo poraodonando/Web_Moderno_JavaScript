@@ -1,22 +1,15 @@
-function classificaAluno(nota) {
-    let notaCorrigida = arredondar(nota)
-    if (notaCorrigida >= 40) {
-        console.log(`Aprovado com nota ${notaCorrigida}`);
-    } else {
-        console.log(`Reprovado com nota ${notaCorrigida}`);
-    }
+function calcularAnoBissexto (ano) {
+   
+   if (ano % 400 == 0) {
+        return true
+   }    
+   
 }
 
-function arredondar (nota) {
-    if (nota % 5 > 2) {
-        return nota + (5 - (nota % 5))
-    } else {
-        return nota
-    }
-}
-
-classificaAluno(100)
-classificaAluno(30)
-classificaAluno(38)
-classificaAluno(87)
-classificaAluno(61)
+console.log(calcularAnoBissexto(0))
+console.log(calcularAnoBissexto(4))
+console.log(calcularAnoBissexto(100))
+console.log(calcularAnoBissexto(400))
+console.log(calcularAnoBissexto(800))
+console.log(calcularAnoBissexto(2020))
+console.log(calcularAnoBissexto(2021))
